@@ -1,0 +1,1 @@
+curl -iv -H "Content-Type: application/json" -d '[ { "name": "device", "strVal": "iPhone", "metadata": "not interesting" }, { "name": "isAuthorized", "boolVal": "false", "lastSeen": "not interesting" } ]'  -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2MjAxMzQzNDd9.7Alr902BBHn_NeCiWjAQDHus7SEcI1PBqUQ25Sx5Mzs" http://localhost:8888/norm
